@@ -114,66 +114,91 @@ sns.boxplot(x='weight',data=newdata_weight)
 ## OUTPUT:
 
 ### bhp.csv:
-
-
 ### df.head():
 
+![1](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/245b914e-7916-4b9a-9247-0eac127b87fe)
+
 ### df.describe():
+
+![2](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/78d34a75-f890-437e-8b2f-c9e8bf45a146)
 
 
 ### df.info():
 
+![3](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/da200df6-4b2a-422c-a85b-ca45e28ed8c2)
+
 
 ### df.shape
+![4](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/cc80cd5e-b57a-40fd-9dae-63c621306d73)
 
 
 ### BOXPLOT BEFORE REMOVING OUTLIERS
+![5](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/1c5889e8-bf17-49d1-b409-e5c97d6e008b)
 
 
 ### NEWDATA USING IQR
 
+![6](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/365deb2e-f372-4450-83a9-252fbceef671)
 
 ### OUTLIERS
 
+![7](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/1f745df4-3b38-4fe9-ae7e-09b31e581c05)
 
 ### newdata.shape
 
+![8](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/a579e8f5-5f44-43e8-99e5-80897909213f)
 
 ### BOXPLOT AFTER REMOVING OUTLIERS USING IQR
+![9](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/71f7624f-cf8f-4118-9947-54f1ddcca192)
 
 ### NEWDATA USING Zscore
+![10](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/5117b6d2-2dc1-44fb-a1d8-a619c98c0240)
 
 ### OUTLIERS
+![11](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/67ab584d-08c8-4eed-a42c-27aec0958dd8)
 
 ### newdata2.shape
+![12](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/f026f8c3-eb6c-405e-8cf3-b9648157af07)
 
 ### BOXPLOT AFTER REMOVING OUTLIERS USING Zscore
+![13](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/cc312d3d-b779-47be-977c-1bb75e54a7df)
 
 ### height_weight.csv
+![14](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/ced41e14-2c9c-467d-9e47-95095cdafb2a)
 
 
 ### dataset.describe()
+![15](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/86755f64-b57d-46f8-b211-17a6d8004e5a)
 
 
 ### dataset.info()
 
+![16](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/5222f8c1-2bb0-422a-b8af-035c45d3de98)
 
 ### BOXPLOT BEFORE REMOVING OUTLIERS
 
+![17](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/7aff9165-f34a-4b75-8e9d-4bf9342de4d6)
 
-### HEIGHT OUTLIERS
+### HEIGHT OUTLIER
+![18](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/5fa2e309-941c-4a65-999f-bf40dad3754f)
+S
 
 ### DATASET AFTER REMOVING HEIGHT OUTLIERS
 
+![19](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/8151b1c7-9d48-4291-b72e-e252fe3907ba)
 
 ### BOXPLOT AFTER REMOVING HEIGHT OUTLIERS
+![20](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/d66d11a0-e503-4016-92f4-3e5bc582a9bb)
 
 
 ### WEIGHT OUTLIERS
+![21](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/bce91c05-19ab-43d0-968f-a661196cdc3a)
 
 ### DATASET AFTER REMOVING WEIGHT OUTLIERS
+![22](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/53cfed54-afa2-4f7d-8f88-31a4221b59e6)
 
 ### BOXPLOT AFTER REMOVING WEIGHT OUTLIERS
+![23](https://github.com/karthickop6/ODD2023---Datascience---Ex-02/assets/72570119/d079893c-205d-4c14-b225-fe201e9b2d80)
 
 # RESULT:
 The given datasets are read and outliers are detected and are removed using IQR and z-score methods.
